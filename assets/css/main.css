@@ -1,0 +1,37 @@
+/**
+ * global styles
+ *
+ * @format
+ */
+
+.main-color {
+  background-color: #272b30;
+}
+img {
+  display: block;
+  width: 100%;
+}
+/* header */
+
+header img {
+  max-height: 30vh;
+  object-fit: cover;
+}
+.badge-color {
+    background-color: #32383e ;
+}
+/* nav */
+nav {
+  background-color: rgb(58, 73, 123) !important;
+  margin-inline: auto !important;
+  margin-top: -30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+}
+.navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-nav .nav-link:hover {
+        color: #09c !important;
+        transition: color 0.5s;
+}
